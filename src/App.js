@@ -25,7 +25,7 @@ function App() {
       <div className="font-gilroy font-medium text-gray text-lg leading-[27px]">
         <Routes>
           <Route
-            path="/"
+            path="/school"
             element={<Navigate to={"/react-templates/edumim"} />}
           />
           <Route path="/react-templates/edumim" element={<HomeOne />} />
